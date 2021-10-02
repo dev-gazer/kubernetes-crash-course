@@ -1,4 +1,4 @@
-#### Kubernetes Crash Course
+## Kubernetes Crash Course
 This is a simple understanding on how Kubernetes work, not so far from a real world application, although it is conducted using Minikube structure.
 
 ##How to get started
@@ -39,3 +39,9 @@ $ minikube ip
 ```
 
 - Copy the IP Address and paste it on your browser URL bar. Do not forget to add the port as well. Look at webapp.yaml nodePort in any case.
+
+#### Stopping the service
+If you want to stop and remove your Kubernetes cluster just execute the following command line on your terminal:
+```
+kubectl delete *your-image-name-here*
+```
