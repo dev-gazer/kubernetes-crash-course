@@ -1,4 +1,4 @@
-####Kukbernetes Crash Course
+#### Kubernetes Crash Course
 This is a simple understanding on how Kubernetes work, not so far from a real world application, although it is conducted using Minikube structure.
 
 ##How to get started
@@ -33,7 +33,7 @@ $ kubectl apply -f mongo.yaml
 $ kubectl apply -f webapp.yaml
 ```
 
-####Retrieve the IP address and test the application on your browser
+#### Retrieve the IP address and test the application on your browser
 ```
 $ minikube ip
 ```
